@@ -15,6 +15,7 @@
 		768E9D4527EF5778003D717D /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E9D4027EF5777003D717D /* AddressView.swift */; };
 		768E9D4627EF5778003D717D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E9D4127EF5778003D717D /* Order.swift */; };
 		768E9D4927EF5B3F003D717D /* CustomDecoderEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */; };
+		F983579228102DA20083F11D /* AppleITunesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983579128102DA20083F11D /* AppleITunesResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		768E9D4027EF5777003D717D /* AddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		768E9D4127EF5778003D717D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecoderEncoder.swift; sourceTree = "<group>"; };
+		F983579128102DA20083F11D /* AppleITunesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleITunesResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,17 @@
 			isa = PBXGroup;
 			children = (
 				768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */,
+				F983579328102E300083F11D /* iTunes */,
 			);
 			path = Learning;
+			sourceTree = "<group>";
+		};
+		F983579328102E300083F11D /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				F983579128102DA20083F11D /* AppleITunesResult.swift */,
+			);
+			path = iTunes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				768E9D4327EF5778003D717D /* ContentView.swift in Sources */,
 				768E9D3027EF556D003D717D /* Cupcake_CornerApp.swift in Sources */,
 				768E9D4527EF5778003D717D /* AddressView.swift in Sources */,
+				F983579228102DA20083F11D /* AppleITunesResult.swift in Sources */,
 				768E9D4627EF5778003D717D /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
