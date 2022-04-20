@@ -16,6 +16,7 @@
 		768E9D4627EF5778003D717D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E9D4127EF5778003D717D /* Order.swift */; };
 		768E9D4927EF5B3F003D717D /* CustomDecoderEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */; };
 		F983579228102DA20083F11D /* AppleITunesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983579128102DA20083F11D /* AppleITunesResult.swift */; };
+		F983579528103B2E0083F11D /* AsyncImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983579428103B2E0083F11D /* AsyncImageTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		768E9D4127EF5778003D717D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecoderEncoder.swift; sourceTree = "<group>"; };
 		F983579128102DA20083F11D /* AppleITunesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleITunesResult.swift; sourceTree = "<group>"; };
+		F983579428103B2E0083F11D /* AsyncImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				768E9D4827EF5B3F003D717D /* CustomDecoderEncoder.swift */,
 				F983579328102E300083F11D /* iTunes */,
+				F983579428103B2E0083F11D /* AsyncImageTest.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F983579528103B2E0083F11D /* AsyncImageTest.swift in Sources */,
 				768E9D4927EF5B3F003D717D /* CustomDecoderEncoder.swift in Sources */,
 				768E9D4427EF5778003D717D /* CheckoutView.swift in Sources */,
 				768E9D4327EF5778003D717D /* ContentView.swift in Sources */,
