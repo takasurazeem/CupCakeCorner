@@ -8,22 +8,11 @@
 import SwiftUI
 
 struct CheckoutView: View {
+    
     @ObservedObject var order: Order
-
-    @State private var confirmationMessage = ""
-    @State private var showingConfirmation = false
-
+    
     var body: some View {
-        ScrollView {
-            
-        }
-        .navigationTitle("Check out")
-        .navigationBarTitleDisplayMode(.inline)
-        .alert("Thank you!", isPresented: $showingConfirmation) {
-            Button("OK") { }
-        } message: {
-            Text(confirmationMessage)
-        }
+        Text("test")
     }
     
 }
